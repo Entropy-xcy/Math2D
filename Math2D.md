@@ -112,3 +112,26 @@ $$l=\int_a^b{\sqrt{(\frac{\mathrm{d}x}{\mathrm{d}t})^2+(\frac{\mathrm{d}y}{\math
 if we assume $\vec{r(t)}=<f(t),g(t),h(t)>$=>$\vec{r'(t)}=<f'(t),g'(t),h'(t)>$
 
 $$l=\int_a^b{|\vec{r'(t)}|\mathrm{d}t}$$
+### Tangent Vector
+$$\vec{T(t)} = \frac{\vec{r'(t)}}{\vec{|r'(t)|}}$$
+$$|\vec{T(t)}|=1$$
+
+### Normal Vector
+$$\vec{N(t)} = \frac{\vec{T'(t)}}{|\vec{T'(t)|}}$$
+
+### Binomal Vector
+$$\vec{B(t)} = \vec{T(t)}\times\vec{N(t)}$$
+
+### Normal Plane
+Normal plane: The normal plane consists of all lines that are orthogonal to the tangent vector.
+<br><br>
+The normal vector of the normal plane is the tangent vector
+
+$$\vec{n}=\vec{T}$$
+
+### Osculating plane
+The plane that comes the closest to containing the part of the curve near point P.
+<br><br>
+The normal vector of the osculating plane is the binomal vecotr
+
+$$\vec{n} = \vec{B}$$
