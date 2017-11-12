@@ -135,3 +135,16 @@ The plane that comes the closest to containing the part of the curve near point 
 The normal vector of the osculating plane is the binomal vecotr
 
 $$\vec{n} = \vec{B}$$
+
+## Chapter 13.4
+### Velocity
+$$\vec{v(t)}=\vec{r'(t)}$$
+### Speed
+$$Speed = |\vec{v(t)}| = |\vec{r'(t)}|$$
+
+## Chapter 14.1
+### Level Curves / Contour Map
+The level curves of a function $f$ of two variables are the curve with equations $f(x,y)=k$, where k is a constant (in the range of $f$).
+### Functions of Three or more variables
+
+## Chapter 14.2
