@@ -148,3 +148,16 @@ The level curves of a function $f$ of two variables are the curve with equations
 ### Functions of Three or more variables
 
 ## Chapter 14.2
+### Limit of multi-var functions
+### Prove the limit does not exist
+Pick two different paths and show that the height or the value if the function is different if we transverse along these different paths.
+### Tips
+* Make sure the path you choose contains the point (a,b)
+* It is highly recommended that one of the paths you choose is either by forcing x=0 and moving along y axis or forcing y=0 and moving along x axis.
+* It is helpful to choose a path that makes the degree of the numerator and the denominator equal.
+
+### Continuity
+Sometimes we can use the concept of continuity for proving that the limit exist.
+* If we have a region (two dimensional region in xy-plane) that the function is defined in that region, the function is continuous in that region. In other words, a function is continuous at any point inside its domain.
+* Polynomials are continuous everywhere.
+* Rational functions are continuous everywhere except where the denominator is zero.
