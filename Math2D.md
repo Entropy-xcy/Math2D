@@ -102,7 +102,9 @@ $$\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\frac{\mathrm{d}r}{\mathrm{d}\theta}\sin
 ### *Right Hand Rule*
 ### Distance
 $$P_1(x_1,y_1,z_1),P_2(x_2,y_2,z_2)$$
+
 $$P_1P_2=l=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$$
+
 ### Scalar
 $$\vec{v}=<a,b,c>$$
 $$|\vec{v}|=\sqrt{a^2+b^2+c^2}$$
@@ -121,15 +123,21 @@ $$Proj_{\vec{a}}^{\vec{b}}=\frac{\vec{a}\cdot\vec{b}}{|\vec{a}|^2}\cdot\vec{a}$$
 ### Cross Product
 $\vec{a}=<a_1,a_2,a_3>,\vec{b}=<b_1,b_2,b_3>$
 
-$$\vec{a}\cdot\vec{b}=\begin{vmatrix}i & j & k \\a_1 & a_2 & a_3 \\b_1 & b_2 & b_3\end{vmatrix}=i\begin{vmatrix}a_2&a_3\\b_2&b_3\end{vmatrix}+j\begin{vmatrix}a_1&a_3\\b_1&b_3\end{vmatrix}+k\begin{vmatrix}a_1&a_2\\b_1&b_2\end{vmatrix}=<a_2b_3-a_3b_2, a_3b_1-a_1b_3, a_1b_2-a_2b_1>$$
+$$\vec{a}\cdot\vec{b}=\begin{vmatrix}i & j & k \\a_1 & a_2 & a_3 \\b_1 & b_2 & b_3\end{vmatrix}=i\begin{vmatrix}a_2&a_3\\b_2&b_3\end{vmatrix}-j\begin{vmatrix}a_1&a_3\\b_1&b_3\end{vmatrix}+k\begin{vmatrix}a_1&a_2\\b_1&b_2\end{vmatrix}=<a_2b_3-a_3b_2, a_3b_1-a_1b_3, a_1b_2-a_2b_1>$$
 The vector $\vec{a}\times\vec{b}$ is orthogonal to both $\vec{a}$ and $\vec{b}$
+
 $|\vec{a}\times\vec{b}|=|\vec{a}|\vec{b}|\sin\theta$
+
 ## Chapter 12.5
 ### Line:
 $$\vec{r}=\vec{r}_0+t\cdot\vec{v}$$
+
 $$<x,y,z>=<x_0,y_0,z_0>+t\cdot<a,b,c>$$
+
 $$\begin{cases}x=x_0+at\\y=y_0+bt\\z=z_0+ct\end{cases}$$
+
 $$\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}$$
+
 ### Skew Lines:
 Neither intersect nor parallel
 ### Plane
@@ -141,10 +149,10 @@ $$a(x-x_0)+b(y-y_0)+c(z-z_0)=0$$
 Find the angle between normal vectors
 ### Find plane pass through $P_1$ $P_2$ and $P_3$
 $\vec{n}=\vec{P_1P_2}\times\vec{P_2P_3}$ and with $P_1$
-### Distance from $P(x_1,y_1,z_1)$ to plane $ax+by+cz=0$
+### Distance from $P(x_1,y_1,z_1)$ to plane $ax+by+cz+d=0$
 $$D=\frac{|ax_1+by_1+cz_1+d|}{\sqrt{a^2+b^2+c^2}}$$
 ### Find the distance between two lines:
-1. Find normal vector
+1. Find normal vector (By cross product the two velocity vectors of two lines)
 2. Establish a plane
 3. Use formula
 
