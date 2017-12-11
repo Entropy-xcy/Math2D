@@ -1,5 +1,7 @@
 # Math 2D
 
+Edited via Entropy Xu (entropy.xcy@protonmail.com)
+
 ## Overview
 * 10.1 Curves Defined by parametric Equations
 
